@@ -17,4 +17,48 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border: grey 2px solid;
+  border-radius: 4px;
+}
+
+.country-list {
+  display: none;
+}
+
+.list_country {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  border: grey 2px solid;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.list_country:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list_country-flag {
+  width: 40px;
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.country-info {
+  display: none;
+  max-width: 500px;
+  border: grey 2px solid;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.country-flag {
+  width: 50px;
+  max-height: 50px;
+  margin-right: 15px;
 }
