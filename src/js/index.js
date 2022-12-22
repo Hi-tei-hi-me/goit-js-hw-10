@@ -91,6 +91,6 @@ function showCountryInfo({
   <div class="header"><img src="${svg}" alt="${official}" class="country-flag"/>
   <h2>${official}</h2></div>
   <p><b>Capital:</b> ${capital}</p>
-  <p><b>Population:</b> ${population}</p>
+  <p><b>Population:</b> ${population.toLocaleString()} ppl.</p>
   <p><b>Languages:</b> ${lang}</p></div>`;
 }
